@@ -1,4 +1,6 @@
 export class DenoWebPolyfill {
+
+	isPolyfill = true
 	
 	pid = 0
 	ppid = 0
@@ -251,6 +253,10 @@ export class DenoWebPolyfill {
 	}
 
 	args = []
+
+	addSignalListener() {
+
+	}
 
 }
 
